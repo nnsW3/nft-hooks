@@ -55,7 +55,7 @@ export class MediaFetchAgent {
     this.currencyFetcher.loadCurrencies(currencies);
 
   /**
-   * Fetch NFT content or retun URI if content shouild not be fetched
+   * Fetch NFT content or return URI if content should not be fetched
    * @param url NFT Content URL
    * @param contentType string mime type to fetch
    * @returns Promise<MediaContentType> Media content information or URL
